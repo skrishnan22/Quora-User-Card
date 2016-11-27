@@ -1,12 +1,8 @@
-*
-{
-font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
-box-sizing: border-box;
-color:  #2d2f33;
-}
 
 .quoraCard
- {  
+ {
+  font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;  
+  color:  #2d2f33;
   max-width: 400px;
   height: 275px;
   border: 1px solid #d9e5f2;
@@ -15,15 +11,16 @@ color:  #2d2f33;
   }
 
 .backdrop
- {
-  height: 40%;
-  background-image: url(bk3.png);
+{
+  height: 39%;
+  background: url("../images/card.png");
+  background-size: cover;
   }
 
 img
-  { 
-  width: 75px;
-  height: 75px;
+{ 
+  width: 72px;
+  height: 72px;
   border-radius: 100%;
   border: 3px solid #fff;
   margin-top: -10%;
@@ -31,38 +28,34 @@ img
   }
 
 h1
-  {  
+{  
   text-transform: uppercase;
   font-size: 25px;
   font-weight: 200;
   text-align: center; 
-  }
+}
 
 ul
-  { 
-  margin: 0;
+{ margin: 0;
   border: 1px solid #d9e5f2;
   list-style-type: none;
   padding: 0;   
-  }
-
+}
 li
-  { 
-  width: 33%;
+{ width: 31%;
   text-align: center;
   border-right: 1px solid #d9e5f2; 
   float: left;
-  padding: 7px 7px;
-  }
+  padding: 1% 1%;
+}
 
 li:last-of-type
-  {
-  border-right: none;  
-  }
-
+{
+border-right: none;  
+}
 span
-  {
+{
   font-weight: bold;
   line-height: 1.5;
   display: block;
-  }
+}
