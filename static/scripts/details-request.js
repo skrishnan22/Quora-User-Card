@@ -1,6 +1,7 @@
 function requestDetails()
 {
-	var name = document.getElementById('getUserName').value;
+	var name = document.getElementById('getUserName').value.split("/").pop();
+	console.log(name)
 	var req_url = "/quoracard/"+name ;
 
 	$('.mainContent').show();
