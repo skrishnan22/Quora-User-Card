@@ -1,0 +1,93 @@
+
+.quoraCard
+ {
+  font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;  
+  color:  #2d2f33;
+  max-width: 400px;
+  height: 275px;
+  border: 1px solid #d9e5f2;
+  border-radius: 7px; 
+  margin: 0 auto;
+  }
+
+.backdrop
+{
+  height: 39%;
+  background: url("../images/card.png");
+  background-size: cover;
+  }
+
+
+.user_redirect
+{
+  width:25px;
+  height:25px;
+  position: relative;
+  top:25px;
+  left: 190px;
+}
+
+img
+{ 
+  width: 72px;
+  height: 72px;
+  border-radius: 100%;
+  border: 3px solid #fff;
+  margin-top: -10%;
+  margin-left: 41%
+  }
+
+
+.topWriter
+{
+  position: relative;
+  top: -136px;
+  left: 60px;
+  width:25px;
+  height: 25px;
+
+}
+.profileName
+{  
+  text-transform: none;
+  font-size: 25px;
+  font-weight: 250;
+}
+
+h1
+{  
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 200;
+
+  text-align: center; 
+}
+
+ul
+{ margin: 0;
+
+  /*border: 1px solid #d9e5f2;*/
+
+  list-style-type: none;
+  padding: 0;   
+}
+
+li
+{ width: 31%;
+  text-align: center;
+  border-right: 1px solid #d9e5f2; 
+  float: left;
+  padding: 1% 1%;
+}
+
+li:last-of-type
+{
+border-right: none;  
+}
+span
+{
+  font-weight: bold;
+
+  line-height: 1.7;
+  display: block;
+}
