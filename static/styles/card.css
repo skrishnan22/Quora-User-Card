@@ -1,6 +1,5 @@
-
 .quoraCard
- {
+{
   font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;  
   color:  #2d2f33;
   max-width: 400px;
@@ -9,22 +8,21 @@
   border-radius: 7px; 
   margin: 0 auto;
   position: relative;
-  }
+ }
 
 .backdrop
 {
   height: 39%;
   background: url("../images/card.png");
   background-size: cover;
-  }
-
+}
 
 .user_redirect
 {
-  width:25px;
-  height:25px;
+  width: 25px;
+  height: 25px;
   position: absolute;
-  top:50px;
+  top: 50px;
   left: 190px;
 }
 
@@ -36,18 +34,17 @@ img
   border: 3px solid #fff;
   margin-top: -10%;
   margin-left: 41%
-  }
-
+}
 
 .topWriter
 {
   position: absolute;
   top: 150px;
   left: 60px;
-  width:25px;
+  width: 25px;
   height: 25px;
-
 }
+
 .profileName
 {  
   text-transform: none;
@@ -60,21 +57,20 @@ h1
   text-transform: uppercase;
   font-size: 25px;
   font-weight: 200;
-
   text-align: center; 
 }
 
 ul
-{ margin: 0;
-
-  /*border: 1px solid #d9e5f2;*/
-
-  list-style-type: none;
-  padding: 0;   
+{ 
+ margin: 0;
+ /*border: 1px solid #d9e5f2;*/ 
+ list-style-type: none;
+ padding: 0;   
 }
 
 li
-{ width: 31%;
+{ 
+  width: 31%;
   text-align: center;
   border-right: 1px solid #d9e5f2; 
   float: left;
@@ -85,10 +81,10 @@ li:last-of-type
 {
 border-right: none;  
 }
+
 span
 {
-  font-weight: bold;
-
-  line-height: 1.7;
-  display: block;
+ font-weight: bold;
+ line-height: 1.7;
+ display: block;
 }
