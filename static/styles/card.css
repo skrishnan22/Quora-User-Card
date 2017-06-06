@@ -8,6 +8,7 @@
   border: 1px solid #d9e5f2;
   border-radius: 7px; 
   margin: 0 auto;
+  position: relative;
   }
 
 .backdrop
@@ -22,8 +23,8 @@
 {
   width:25px;
   height:25px;
-  position: relative;
-  top:25px;
+  position: absolute;
+  top:50px;
   left: 190px;
 }
 
@@ -40,8 +41,8 @@ img
 
 .topWriter
 {
-  position: relative;
-  top: -136px;
+  position: absolute;
+  top: 150px;
   left: 60px;
   width:25px;
   height: 25px;
