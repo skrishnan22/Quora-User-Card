@@ -7,6 +7,7 @@ $("#getUserName").keyup(function(event){
 });
 
 $('#ok').click(function(){
+	$(".card").empty();
 	var name = document.getElementById('getUserName').value.split("/").pop();
 	var req_url = "/quoracard/"+name ;
 	$(".card").load(req_url);
