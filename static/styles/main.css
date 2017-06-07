@@ -1,0 +1,103 @@
+*
+{
+  font-family:  ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif
+}
+
+.mainContent
+{
+    position: relative;
+    height: 100vh;
+    display: none;
+
+}
+
+ 
+.header
+{ 
+  display: table;
+  width: 100%;
+  padding: 100px 0;
+  text-align: center;
+  color: #5d5f63;
+  background-color: white;
+  /*background: url("../images/header-background.jpg") no-repeat bottom center;
+  
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;*/
+}
+
+
+.header h1
+{  
+  position: relative;
+  margin: 0 auto;
+  font-size: 90px;
+  font-weight: bold;
+  text-transform: none;
+
+}
+
+.header p
+{
+  margin: 0 auto;  
+  position: relative;
+  font-size: 40px
+}
+
+#getUserName
+{
+  border: solid  2px #cfd0d1;
+  border-radius: 5px;
+  width: 300px;
+  height: 25px;
+  position: relative;
+  top: 50px;
+  margin: 0 auto;
+  text-align: center;
+  color: #393a3a;
+  font-weight: 400;
+  }
+
+#ok
+{
+ position: relative;
+ top: 50px;
+ left: 20px;
+ height: 30px;
+ border-radius: 7px;
+ font-weight: bold;
+ color: #393a3a;
+ background-color: #fcfdff;
+
+}
+
+
+
+.card
+{
+  width: 400px;
+  position: relative;
+  left: 36%;
+}
+
+
+footer
+{
+  position: absolute;
+  bottom: -5px;
+  color: #646566;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 25px;
+  width: 100%;
+}
+
+footer a:link
+{
+text-decoration: none;
+}
+
+footer a{
+  color: #646566;
+}
